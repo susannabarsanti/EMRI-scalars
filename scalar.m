@@ -48,8 +48,6 @@ erre[\[Chi]_]:= p/(1 + e Cos[\[Chi]]);
 \[Omega]mk = m \[CapitalOmega]\[Phi] + k \[CapitalOmega]r; 
 
 
-SpinWeightedSpheroidalHarmonicS[0,0,0,0,\[Pi]/2,0]
-
 
 IntScal[latus_,ecc_,\[ScriptL]_,mu_,kappa_,dii_,A_,rinf_]:=Block[{l=\[ScriptL],rp,dEd\[Sigma],dEd\[Sigma]\[Infinity],dEd\[Sigma]h,dEd\[Sigma]\[Infinity]2,dEd\[Sigma]h2,  Aout,Aouth, m=mu, k=kappa,\[Omega]=\[Omega]mk//.{p-> latus, e-> ecc},r,M=1,mp=1,p=latus,e=ecc,r1,\[Epsilon]=10^-3,eq,eqS,eqSh,uHI,duHI,d0,b0,u\[Infinity]I,du\[Infinity]I,\[Psi],S,\[Lambda], W,drt,b,d,Y\[Infinity],YH, di=dii, a=A, normS,r2,\[Chi],dLd\[Sigma]\[Infinity],dLd\[Sigma]h},
 
