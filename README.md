@@ -13,6 +13,4 @@ Finally, three EMRI_Inspiral_Evolution codes are present here. 1) EMRI evolution
  
 <a name="circular"/>
 ### Circular
-Source term is 
-
 
