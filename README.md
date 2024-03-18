@@ -8,7 +8,7 @@ and for their adiabatic orbital evolution, GW template computation and fisher an
 
 ## Table of Contents  
 [Fluxes](#Fluxes)  
-[EMRI Evolution](#EMRIEvolution)
+[EMRIEvolution](#EMRIEvolution)
 
 ### Fluxes
  
