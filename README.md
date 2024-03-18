@@ -6,31 +6,31 @@ Mathematica codes for EMRIs with scalar fields. Single codes for the computation
 and for their adiabatic orbital evolution, GW template computation and fisher analysis.  
    
 
-# Table of Contents  
+## Table of Contents  
 [Fluxes](#Fluxes)  
 [EMRI Evolution](#EMRIEvolution)
 
-## Fluxes
+### Fluxes
  
-## Circular
+#### Circular
 bla bla 
 
-## Eccentric
+#### Eccentric
 bla bla 
 
-## Massive scalars 
+#### Massive scalars 
 
 
-# EMRIEvolution and parameter estimation with Fisher matrices
+### EMRIEvolution 
 
-## Circular
+#### Circular
 AK template with fully relativistic inspiral 
 
-## Equatorial eccentric
+#### Equatorial eccentric
 AK template with fully relativistic inspiral
 
-### Inclined circular
+#### Inclined circular
 NK template with fully relativistic inspiral
 
-### Massive
+#### Massive
 AK template with fully relativistic circular inspiral 
