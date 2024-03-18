@@ -1,4 +1,4 @@
-# scalar_EMRIs 
+# Scalar_EMRIs 
 Mathematica codes for EMRIs with scalar fields. Single codes for the computations of massless scalar and gravitational fluxes for:  
 1) equatorial circular orbits;
 2) equatorial eccentric orbits;
