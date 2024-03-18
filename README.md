@@ -3,6 +3,7 @@ Mathematica codes for EMRIs with scalar fields. Single codes for the computation
 1) equatorial circular orbits;
 2) equatorial eccentric orbits;
 3) circular inclined orbits;
+   
 and for their adiabatic orbital evolution, GW template computation and fisher analysis.  
    
 
