@@ -89,7 +89,10 @@ Return[x];
 ];
 
 (*Exporting the data in a .dat file*)
-Export["circ_scal_aXX.dat",tab[1,XX,XXX]];
+ellmin=1;
+ellmax=15;
+spin=0.9`40;
+Export["circ_scal_aXX.dat",tab[ellmin,ellmax,spin]];
 
 
 Exit[];
