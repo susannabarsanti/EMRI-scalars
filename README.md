@@ -58,14 +58,21 @@ Some circular scalar and gravitational fluxes for circular orbit and different p
 
 ##### Eccentric
 For the paper: https://arxiv.org/abs/2203.05003
+
 The "Scalar" folder contains the scalar fluxes for spin a=0.2M and a=0.9M.
+
 The "Tensorial" folder contains the gravitational fluxes for spin a=0.2M and a=0.9M.
 
 For the MCMC ANALYSIS:
+
 "gravitational_eccentric_fluxes.dat"
+
 Gravitational eccentric fluxes for the grid points (13x13x17=2873 points). The columns read $(a,p,e,\dot{E}\_\textnormal{inf},\dot{E}\_\textnormal{h},\dot{L}\_\textnormal{inf},\dot{E}\_\textnormal{h})$
+
 "scalar_total_level12.wdx"
+
 Scalar eccentric fluxes for the grid points (13x13x17=2873 points).  The columns read $(a,p,e,\dot{E}\_\textnormal{inf},\dot{E}\_\textnormal{h},\dot{L}\_\textnormal{inf},\dot{E}\_\textnormal{h})$.
+
 - To use this scalar flux with our normalization, we need to divide them by a factor $4$. 
 
 
