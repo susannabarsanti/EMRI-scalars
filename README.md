@@ -78,14 +78,24 @@ Scalar eccentric fluxes for the grid points (13x13x17=2873 points).  The columns
 
 ### EMRI Evolution&Fishers
 
-#### Circular
-AK template with fully relativistic inspiral 
+#### EMRI Evolution&Fishers codes
 
-#### Equatorial eccentric
-AK template with fully relativistic inspiral
+##### Circular
+AK quadrupolar template with fully relativistic inspiral. Used for: https://arxiv.org/abs/2106.11325
 
-#### Inclined circular
-NK template with fully relativistic inspiral
+##### Equatorial eccentric
+AK quadrupolar template with fully relativistic inspiral. Used for: https://arxiv.org/abs/2203.05003 
 
-#### Massive
-AK template with fully relativistic circular inspiral 
+##### Inclined circular
+NK quadrupolar template with fully relativistic inspiral. Used for: https://arxiv.org/abs/2401.09542
+
+##### Massive
+AK quadrupolar template with fully relativistic circular inspiral. Used for: https://arxiv.org/abs/2212.03888
+
+#### EMRI Evolution&Fishers data
+
+##### Massive
+Data for the fishers with massive scalar fields. 
+
+
+
