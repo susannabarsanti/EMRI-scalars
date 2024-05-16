@@ -13,7 +13,7 @@ The repository includes:
 
 3) Code for the computation of massive scalar field fluxes;
 
-4) Codes for the EMRI adiabatic orbital evolution, GW quadrupolar template and fisher analysis.  
+4) Codes for the EMRI adiabatic orbital evolution, GW template and fisher analysis.  
    
 
 ## Table of Contents  
