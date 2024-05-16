@@ -5,12 +5,14 @@ The repository includes:
 
 1) Codes for the computations of massless scalar and gravitational fluxes for:  
    i) equatorial circular orbits;
+   
    ii) equatorial eccentric orbits;
+   
    iii) circular inclined orbits.
 
-2) Code for the computation of massive scalar field fluxes;
+3) Code for the computation of massive scalar field fluxes;
 
-3) Codes for the EMRI adiabatic orbital evolution, GW quadrupolar template and fisher analysis.  
+4) Codes for the EMRI adiabatic orbital evolution, GW quadrupolar template and fisher analysis.  
    
 
 ## Table of Contents  
