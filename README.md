@@ -18,7 +18,7 @@ The repository includes:
 
 ## Table of Contents  
 [Fluxes](#Fluxes)  
-[EMRIEvolution](#EMRIEvolution&Fishers)
+[EMRIEvolution&Fishers](#EMRIEvolution&Fishers)
 
 ### Fluxes
 
