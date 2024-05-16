@@ -42,7 +42,14 @@ Finally:	this notebook makes use  of the BHPToolkit https://bhptoolkit.org/mathe
 ##### Inclined
 
 ##### Massive scalars 
+Codes for the massive scalar fluxes computation. Point particle in circular orbit around a Kerr black hole.
 
+If you make use of this code, please cite https://arxiv.org/abs/2212.03888.
+
+Important Notes: 
+- Toolkit vs massless : factor \[Pi]/4
+
+- THINGS TO IMPLEMENT: A FUNCTION FO R2 THAT VARIES WITH THE MASS OF THE SCALAR
 
 ### EMRI Evolution&Fishers
 
