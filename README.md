@@ -65,7 +65,7 @@ For the MCMC ANALYSIS:
 "gravitational_eccentric_fluxes.dat"
 Gravitational eccentric fluxes for the grid points (13x13x17=2873 points). The columns read (a, p, e , Edot_h, Edot_inf, Ldot_h, Ldot_inf).
 "scalar_total_level12.wdx"
-Scalar eccentric fluxes for the grid points (13x13x17=2873 points).  The columns read (a, p, e , Edotinf, Edoth, Ldotinf, Ldoth).
+Scalar eccentric fluxes for the grid points (13x13x17=2873 points).  The columns read $(a, p, e , \dot{E}_{inf}, Edoth, Ldotinf, Ldoth)$.
 - To use this scalar flux with our normalization, we need to divide them by a factor 4. 
 
 
