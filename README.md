@@ -21,14 +21,27 @@ The repository includes:
 [EMRIEvolution](#EMRIEvolution)
 
 ### Fluxes
+
+#### Fluxes codes 
+
  
-#### Circular
-bla bla 
+##### Circular
+Codes for the scalar and tensorial fluxes computation that make use of the Black Hole Perturbation Toolkit https://bhptoolkit.org/mathematica-install-dev.html. Point particle in circular orbit around a Kerr black hole.  
 
-#### Eccentric
-bla bla 
+##### Eccentric
+Codes for the scalar and tensorial fluxes computation. Point particle in circular orbit around a Kerr black hole. If you make use of this codes, please cite https://arxiv.org/abs/2203.05003. 
 
-#### Massive scalars 
+Moreover, note that: 
+- The convergence criteria have been implemented by following Viktor Skoupy: https://arxiv.org/abs/2201.07044. 
+- The functions for the homogeneous solutions have been implemented by Gabriel Piovano, i.e. boundary  conditions for the radial Teukolsky equation in horizon penetrating, hyperboloidal slicing coordinates. If you make use of these boundary conditions, please acknowledge https://arxiv.org/pdf/2105.07083.  
+
+Finally:	this notebook makes use  of the BHPToolkit https://bhptoolkit.org/mathematica-install-dev.html
+
+(*IMPORTANT: FindRoot errors in the paclet version of the toolkit, use the GitHub one.*)
+
+##### Inclined
+
+##### Massive scalars 
 
 
 ### EMRI Evolution&Fishers
