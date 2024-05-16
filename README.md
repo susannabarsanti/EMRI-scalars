@@ -3,7 +3,8 @@ Mathematica codes for EMRIs with scalar fields.
 
 The repository includes: 
 
-1) Codes for the computations of massless scalar and gravitational fluxes for:  
+1) Codes for the computations of massless scalar and gravitational fluxes for:
+   
    i) equatorial circular orbits;
    
    ii) equatorial eccentric orbits;
