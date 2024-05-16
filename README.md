@@ -18,7 +18,7 @@ The repository includes:
 
 ## Table of Contents  
 [Fluxes](#Fluxes)  
-[EMRIEvolution&Fishers](#EMRIEvolution&Fishers)
+[EMRIEvolution](#EMRIEvolution)
 
 ### Fluxes
 
@@ -76,7 +76,7 @@ Scalar eccentric fluxes for the grid points (13x13x17=2873 points).  The columns
 - To use this scalar flux with our normalization, we need to divide them by a factor $4$. 
 
 
-### EMRIEvolution&Fishers
+### EMRIEvolution
 
 #### EMRI Evolution&Fishers codes
 
