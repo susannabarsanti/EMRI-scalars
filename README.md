@@ -1,10 +1,16 @@
 # Scalar_EMRIs 
-Mathematica codes for EMRIs with scalar fields. Single codes for the computations of massless scalar and gravitational fluxes for:  
-1) equatorial circular orbits;
-2) equatorial eccentric orbits;
-3) circular inclined orbits;
-   
-and for their adiabatic orbital evolution, GW template computation and fisher analysis.  
+Mathematica codes for EMRIs with scalar fields. 
+
+The repository includes: 
+
+1) Codes for the computations of massless scalar and gravitational fluxes for:  
+   i) equatorial circular orbits;
+   ii) equatorial eccentric orbits;
+   iii) circular inclined orbits.
+
+2) Code for the computation of massive scalar field fluxes;
+
+3) Codes for the EMRI adiabatic orbital evolution, GW quadrupolar template and fisher analysis.  
    
 
 ## Table of Contents  
