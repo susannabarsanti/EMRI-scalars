@@ -51,6 +51,24 @@ Important Notes:
 
 - THINGS TO IMPLEMENT: A FUNCTION FO R2 THAT VARIES WITH THE MASS OF THE SCALAR
 
+#### Fluxes data
+
+##### Circular
+Some circular scalar and gravitational fluxes for circular orbit and different primary spin. 
+
+##### Eccentric
+For the paper: https://arxiv.org/abs/2203.05003
+The "Scalar" folder contains the scalar fluxes for spin a=0.2M and a=0.9M.
+The "Tensorial" folder contains the gravitational fluxes for spin a=0.2M and a=0.9M.
+
+For the MCMC ANALYSIS:
+"gravitational_eccentric_fluxes.dat"
+Gravitational eccentric fluxes for the grid points (13x13x17=2873 points). The columns read (a, p, e , Edot_h, Edot_inf, Ldot_h, Ldot_inf).
+"scalar_total_level12.wdx"
+Scalar eccentric fluxes for the grid points (13x13x17=2873 points).  The columns read (a, p, e , Edotinf, Edoth, Ldotinf, Ldoth).
+- To use this scalar flux with our normalization, we need to divide them by a factor 4. 
+
+
 ### EMRI Evolution&Fishers
 
 #### Circular
