@@ -47,7 +47,7 @@ Codes for the massive scalar fluxes computation. Point particle in circular orbi
 If you make use of this code, please cite https://arxiv.org/abs/2212.03888.
 
 Important Notes: 
-- Toolkit vs massless : factor \[Pi]/4
+- Toolkit vs massless : factor \pi/4
 
 - THINGS TO IMPLEMENT: A FUNCTION FO R2 THAT VARIES WITH THE MASS OF THE SCALAR
 
