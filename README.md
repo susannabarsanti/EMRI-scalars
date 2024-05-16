@@ -58,7 +58,7 @@ Some circular scalar and gravitational fluxes for circular orbit and different p
 
 ##### Eccentric
 For the paper: https://arxiv.org/abs/2203.05003
-The "Scalar" folder contains the scalar fluxes for spin $a=0.2M$ and a=0.9M.
+The "Scalar" folder contains the scalar fluxes for spin $ a=0.2M $ and a=0.9M.
 The "Tensorial" folder contains the gravitational fluxes for spin a=0.2M and a=0.9M.
 
 For the MCMC ANALYSIS:
