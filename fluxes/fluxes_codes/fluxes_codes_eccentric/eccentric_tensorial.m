@@ -485,6 +485,9 @@ matrixe0,matrix,
 \[Epsilon],a,\[CapitalOmega],\[CapitalOmega]\[Phi],l,ind,kfin,i,shift,m,k,kmin,
 lmax=120,kmax=120,mmax=25,mmin=-15},
 
+(*m_max lowered to 23 for certain points due to slow computation. check which ones*)
+
+
 \[Epsilon]=10^-7; 
 l=2;
 m=2;
