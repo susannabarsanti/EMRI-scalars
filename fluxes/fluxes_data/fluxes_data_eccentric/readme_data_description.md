@@ -1,4 +1,4 @@
-eccentric_scalar.m
+*eccentric_scalar.m*
 Code for the scalar eccentric scalar flux computation. 
 
 eccentric_tensorial.m
