@@ -483,7 +483,7 @@ fluxe0lm22,fluxl,flux,
 suml,sumlm22h, sumlm22,
 matrixe0,matrix,
 \[Epsilon],a,\[CapitalOmega],\[CapitalOmega]\[Phi],l,ind,kfin,i,shift,m,k,kmin,
-lmax=120,kmax=120,mmax=25,mmin=-15},
+lmax=120,kmax=120,mmax=25,mmin=-15,mthr=6},
 
 (*m_max lowered to 23 for certain points due to slow computation. check which ones*)
 
@@ -552,7 +552,7 @@ If[liste0m[[l-1]][[5]] < \[Epsilon] fluxe0lm22[[2]] , Break[];];
 matrixe0[[m]] = Select[Partition[Flatten[liste0m],9], #!={0,0,0,0,0,0,0,0,0}&]; 
 liste0m = ConstantArray[{0,0,0,0,0,0,0,0,0},lmax];
 
-If[m>6,
+If[m>mthr,
 If[(Total[matrixe0[[m-1]][[All,5]]]+Total[matrixe0[[m-1]][[All,4]]])/(1-((Total[matrixe0[[m-1]][[All,5]]]+Total[matrixe0[[m-1]][[All,4]]])/(Total[matrixe0[[m-2]][[All,5]]]+Total[matrixe0[[m-2]][[All,4]]])))< \[Epsilon]/10 (Total[Partition[Flatten[matrixe0],9][[All,5]]]+Total[Partition[Flatten[matrixe0],9][[All,4]]]), Break[];
 ];
 ];
@@ -701,7 +701,7 @@ matrix[[m+6]] = Select[Partition[Flatten[list],9], #!={0,0,0,0,0,0,0,0,0}&];
 
 list = ConstantArray[0,kmax*lmax*50];
 
-If[m>2,
+If[m>mthr,
 If[(Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(1-((Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(Total[matrix[[m+5]][[All,5]]]+Total[matrix[[m+5]][[All,4]]])))< \[Epsilon]/2 (Total[Partition[Flatten[matrix],9][[All,5]]]+Total[Partition[Flatten[matrix],9][[All,4]]]), Break[];];
 ];
 ];
@@ -728,7 +728,7 @@ matrixe0,matrix,
 flux,fluxl,fluxe0lm22,
 sumlm22,sumlm22h,i,suml,
 ind,\[Epsilon],a,\[CapitalOmega], \[CapitalOmega]\[Phi],l,kfin,m,k,kmin,shift,
-lmax=120,kmax=120,mmax=25,mmin=-15},
+lmax=120,kmax=120,mmax=25,mmin=-15,mthr=6},
 
 \[Epsilon]=10^-7;
 l=2;
@@ -794,7 +794,7 @@ If[liste0m[[l-1]][[5]] < \[Epsilon] fluxe0lm22[[2]] , Break[];];
 matrixe0[[m]] = Select[Partition[Flatten[liste0m],9], #!={0,0,0,0,0,0,0,0,0}&]; 
 liste0m = ConstantArray[{0,0,0,0,0,0,0,0,0},lmax];
 
-If[m>6,
+If[m>mthr,
 If[(Total[matrixe0[[m-1]][[All,5]]]+Total[matrixe0[[m-1]][[All,4]]])/(1-((Total[matrixe0[[m-1]][[All,5]]]+Total[matrixe0[[m-1]][[All,4]]])/(Total[matrixe0[[m-2]][[All,5]]]+Total[matrixe0[[m-2]][[All,4]]])))< \[Epsilon]/100 (Total[Partition[Flatten[matrixe0],9][[All,5]]]+Total[Partition[Flatten[matrixe0],9][[All,4]]]), Break[];
 ];
 ];
@@ -945,7 +945,7 @@ matrix[[m+6]] = Select[Partition[Flatten[list],9], #!={0,0,0,0,0,0,0,0,0}&];
 
 list = ConstantArray[0,kmax*lmax*50];
 
-If[m>2,
+If[m>mthr,
 If[(Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(1-((Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(Total[matrix[[m+5]][[All,5]]]+Total[matrix[[m+5]][[All,4]]])))< \[Epsilon]/2 (Total[Partition[Flatten[matrix],9][[All,5]]]+Total[Partition[Flatten[matrix],9][[All,4]]]), Break[];];
 ];
 ];
