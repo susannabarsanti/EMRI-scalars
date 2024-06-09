@@ -489,7 +489,7 @@ sumlm00h,sumlm00,sumlm11h,sumlm11,sumlm22,sumlm22h,suml,
 fluxe0lm11,fluxe0lm22,fluxl,
 matrixe0,matrix1,matrix,
 ind,\[Epsilon],a,\[CapitalOmega],\[CapitalOmega]r,\[CapitalOmega]\[Phi],l,m,k,kfin,flux,i,shift,count,
-lmax=120,,kmin,kmax=130,mmax=25,mmin=-15},
+lmax=120,kmin,kmax=130,mmax=25,mmin=-15,mthr=6},
 
 (*computing the fundamental (l,m,k)=(2,2,0) mode*)
 \[Epsilon]=10^-7; 
@@ -928,7 +928,7 @@ matrix[[m+6]] = Select[Partition[Flatten[list],9], #!={0,0,0,0,0,0,0,0,0}&];
 
 list = ConstantArray[0,kmax*lmax*10];
 
-If[m>2,
+If[m>mthr,
 If[(Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(1-((Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(Total[matrix[[m+5]][[All,5]]]+Total[matrix[[m+5]][[All,4]]])))< \[Epsilon]/2 (Total[Partition[Flatten[matrix],9][[All,5]]]+Total[Partition[Flatten[matrix],9][[All,4]]]), Break[];];
 ];
 ];
@@ -1381,7 +1381,7 @@ matrix[[m+6]] = Select[Partition[Flatten[list],9], #!={0,0,0,0,0,0,0,0,0}&];
 
 list = ConstantArray[0,kmax*lmax*50];
 
-If[m>2,
+If[m>mthr,
 If[(Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(1-((Total[matrix[[m+6]][[All,5]]]+Total[matrix[[m+6]][[All,4]]])/(Total[matrix[[m+5]][[All,5]]]+Total[matrix[[m+5]][[All,4]]])))< \[Epsilon]/2 (Total[Partition[Flatten[matrix],9][[All,5]]]+Total[Partition[Flatten[matrix],9][[All,4]]]), Break[];];
 ];
 ];
