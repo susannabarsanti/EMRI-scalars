@@ -1,15 +1,13 @@
 **eccentric_scalar.m**
 
 Code for the scalar eccentric scalar flux computation. 
+Parameters to check: 
+- m_max: set to 25
+- m_thr: set to 6. It was originally 2, but it was too low. 
 
 **eccentric_tensorial.m**
 
 Code for the gravitational eccentric scalar flux computation. 
-
-**Interpolator.nb**
-
-It imports the grav_data.wdx and scalar_total_level12.wdx and interpolate the fluxes by making use of the Maarteen’s interpolator in ChebInt.m.
-
-**ChebInt.m**
-
-Package used for the fluxes interpolation. Implemented by Maarten. I never changed it. 
+Parameters to check: 
+- m_max: set to 25. For some points down to 21 becuase of "kernel time-out"
+- m_thr: set to 6. It was originally 2, but it was too low.
