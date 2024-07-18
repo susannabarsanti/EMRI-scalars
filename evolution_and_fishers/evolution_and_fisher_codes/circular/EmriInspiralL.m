@@ -516,13 +516,13 @@ Print["SNR = ",\[Rho]];
 
 dhI = dhII = ConstantArray[0,npar]; (* all paramse + dL *)
 
-order = {7,7,7,7,7,7,7,7};
-pos = {1,2,3,4,5,6,8,9};
+order = {11,11,11,11,11,9,9,9,9};
+pos = {1,2,3,4,5,6,7,9,10};
 
 If[Length[order]!=Length[pos],Print["Derivatives don't match parameters"];Return[],Continue];
 
 vecder=Table[finitederiv[d,pos[[i]],
-{m1,m2,spin,r0,\[Theta]s,\[Phi]s,\[Phi]0,\[Theta]k,\[Phi]k},\[Epsilon],observingtime,order[[i]]],{i,1,Length[pos]}];(* all derivatives but distance and \[Phi]0 *)
+{m1,m2,spin,\[Alpha], r0,\[Theta]s,\[Phi]s,\[Phi]0,\[Theta]k,\[Phi]k},\[Epsilon],observingtime,order[[i]]],{i,1,Length[pos]}];(* all derivatives but distance and \[Phi]0 *)
 
 Table[{dhI[[pos[[i]]]],dhII[[pos[[i]]]]}=vecder[[i]],{i,1,Length[pos]}];
 
