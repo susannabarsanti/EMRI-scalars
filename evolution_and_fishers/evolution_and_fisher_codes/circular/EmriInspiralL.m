@@ -468,7 +468,7 @@ Return[{dhI,dhII}];
 ]
 
 
-derwave[\[Epsilon]_,m1_,m2_,spin_,r0_,\[Phi]0_,\[Theta]s_,\[Phi]s_,\[Theta]k_,\[Phi]k_,dL_,observingtime_]:=Block[{timevec,vecder,
+derwave[\[Epsilon]_,m1_,m2_,spin_,\[Alpha],r0_,\[Phi]0_,\[Theta]s_,\[Phi]s_,\[Theta]k_,\[Phi]k_,dL_,observingtime_]:=Block[{timevec,vecder,
 i,d,\[Rho],hI,hII,dhI,dhII,npar,hplus,hcross,hp,hx,FplusI,FcrossI,FplusII,FcrossII,t,T,fisco,
 nn,\[Delta]t,order,win,risco,pos,LN,fdopp,fsampling,rmax,fmax},
 
