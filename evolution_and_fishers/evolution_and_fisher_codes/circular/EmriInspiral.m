@@ -517,6 +517,21 @@ Print["SNR = ",\[Rho]];
 
 dhI = dhII = ConstantArray[0,npar]; (* all paramse + dL *)
 
+
+(* derivatives of {m1,m2,spin,\[Alpha],r0,\[Theta]s,\[Phi]s,\[Phi]0,\[Theta]k,\[Phi]k,d}
+numerical derivatives: {m1,m2,spin,\[Alpha],r0,\[Theta]s,\[Phi]s,\[Theta]k,\[Phi]k} 
+analytical derivatives: {\[Phi]0,d}. 
+
+the shift epsilon (or delta) in the fisher.m will contain the all 11 parameters and then it will jump the [8] and [-1] positions.
+\[Delta]={
+{10^-7,10^-7,10^-7,10^-5,10^-7,10^-7,10^-7,10^-7,10^-7,10^-7,10^-7},
+5{10^-8,10^-8,10^-8,10^-6,10^-8,10^-8,10^-8,10^-8,10^-8,10^-8,10^-8},
+{10^-8,10^-8,10^-8,10^-6,10^-8,10^-8,10^-8,10^-8,10^-8,10^-8,10^-8},
+5{10^-9,10^-9,10^-9,10^-7,10^-9,10^-9,10^-9,10^-9,10^-9,10^-9,10^-9},
+{10^-9,10^-9,10^-9,10^-7,10^-9,10^-9,10^-9,10^-9,10^-9,10^-9,10^-9}};
+
+*)
+
 order = {11,11,11,11,11,9,9,9,9};
 pos = {1,2,3,4,5,6,7,9,10};
 
